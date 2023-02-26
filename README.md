@@ -1,5 +1,5 @@
 # Pager (IOT Project)
-A pager device that uses wifi to communicate with other pager devices connected in the same network. A pager device consists of an ESP32, Buzzer, LED, (128x64)OLED screen, battery and two buttons.
+A pager device that uses wifi to communicate with server connected in the same network. A pager device consists of an ESP32, Buzzer, LED, (128x64)OLED screen, battery and two buttons.
 
 The message is sent from the server to all the pager devices using UDP protocol. The pager devices can either send a yes or no by pressing the respective buttons.
 
