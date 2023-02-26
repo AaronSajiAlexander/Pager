@@ -8,7 +8,7 @@ def send():
     udp.setsockopt(socket.SOL_SOCKET, socket.SO_BROADCAST, 1)
     udp.settimeout(0.2)
     while True:
-        message = b"7pm Meet vandhudu. Please don't reply as no."
+        message = b"There's a 7pm Meet today. Please respond with a yes or no."
         udp.sendto(message, ('192.168.43.8', 37020))
         time.sleep(1)
 
