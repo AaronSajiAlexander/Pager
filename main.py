@@ -1,4 +1,3 @@
-'''
 import _thread as th
 import time
 import usocket as socket
@@ -77,7 +76,7 @@ def send():
 th.start_new_thread(receive,())
 
 th.start_new_thread(send,())
-'''
+
 
 
 
